@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./csslearn.css" rel="stylesheet" />
+    <title>csslearn</title>
+</head>
+<body>
+    <h1>
+        Khofifah Adelia
+    </h1>
+    <div id=happy-cake> <!-- id selector bisa diselipin dmn tag mana saja: h1, div-->
+        <h1> selector</h1>
+        <h2> selector id </h2>
+    </div>
+    
+    <div class="module">
+        <h2>ini contoh module</h2>
+    </div>
+    <!-- * merupakan universal yang dapat mengubah sebuah element-->
+    <!-- div h1 ,ini contoh descendant seceltor -->
+
+    <div>
+        <p>Paragraph 1 in the div.</p>
+      </div>
+      <!-- Will NOT match -->
+      <div>
+        <section><p>Paragraph 2 in the div (inside a section element).</p></section>
+      </div>
+
+      <div>
+        <a>Anchor</a>
+      </div>
+      <p>WILL match this Paragraph</p>
+      <p>Will NOT match this Paragraph</p>  
+
+    <div>
+        <p><a href="default.asp" target="_blank">This is a link</a></p>
+    </div>
+
+    <div>
+        <p><a class="highlight" href="css_syntax.asp">CSS Syntax</a></p>
+    </div>
+</body>
+</html>

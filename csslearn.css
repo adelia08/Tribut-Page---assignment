@@ -1,0 +1,45 @@
+h1{
+    color: rgb(32, 148, 148)
+}
+
+#happy-cake {
+    background-color: brown;
+}
+
+.module{
+    background-color: burlywood;
+}
+
+div h1{
+    background-color: cadetblue; 
+}
+
+div > p {
+    background-color: chartreuse;
+}
+
+div + p {
+    background-color: crimson;
+}
+
+/* unvisited link */
+a:link {
+    color:crimson
+}
+/* visited link */
+a:visited {
+    color:darkblue
+}
+/* mouse over link */
+a:hover {
+    color:darkorchid
+}
+/* selected link */
+a:active {
+    color:darksalmon
+}
+
+a.highlight:hover {
+    color: #ff0000;
+    font-size: 22px;
+  }

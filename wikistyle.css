@@ -1,0 +1,48 @@
+*{
+    color:black;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Bebas Neue';
+    font-size: 60px;
+    color:rgb(230, 78, 51);
+}
+img{
+    max-width: 100%;
+    display: block;
+    height: auto;
+    margin: auto;
+    border-radius: 180px;
+}
+body{
+    background-color: rgb(255, 229, 221);
+}
+
+body strong{
+    color:rgb(197, 59, 34);
+    font-size: 30px;
+}
+
+body p, body li{
+    font-family: 'Slabo 27px', serif;
+    font-size: 18px;
+}
+
+header{
+    background-image: url("bg.png");
+    border-radius: 5px;
+}
+
+ footer p{
+    color: rgb(197, 59, 34);
+ }
+
+ footer a{
+    color: rgb(34, 151, 197);
+ }
+
+ a.click:hover {
+    color: #190781;
+    font-size: 20px;
+ }
